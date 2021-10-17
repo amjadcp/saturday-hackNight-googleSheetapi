@@ -3,11 +3,7 @@
 ##Team Members
 1. Amjad C P
 2. Athul Thomas
-3. Faiz Arif
-
-
-
-<img src="images/avatar.png" alt="Logo">
+3. Faiz Arif UP
 
 
 <!-- PROJECT LOGO -->
