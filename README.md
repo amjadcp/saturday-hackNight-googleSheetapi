@@ -7,7 +7,7 @@
 
 
 
-
+<img src="images/avatar.png" alt="Logo">
 
 
 <!-- PROJECT LOGO -->
@@ -26,8 +26,8 @@ It is an office register using google sheet api
     <a href="https://github.com/amjadcp/saturday-hackNight-googleSheetapi/issues">Request Feature</a>
   </p>
 
-<img src="1.png> <br/>
-<img src="2.png> <br/>
+<img src="1.png"> <br/>
+<img src="2.png"> <br/>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
