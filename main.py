@@ -1,23 +1,26 @@
-# import gspread
-# from oauth2client.service_account import ServiceAccountCredentials
-# from pprint import pprint
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+from pprint import pprint
 
-# scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
+scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 
-# creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope)
 
-# client = gspread.authorize(creds)
+client = gspread.authorize(creds)
 
-# sheet = client.open("Saturday HackNight Sheet").sheet1  # Open the spreadhseet
+sheet = client.open("SaturdayHackNightSheet").sheet1  # Open the spreadhseet
 
-# data = sheet.get_all_records()  # Get a list of all records
+data = sheet.get_all_records()  # Get a list of all records
 
-# numRows = sheet.row_count  # Get the number of rows in the sheet
-# pprint(data)
-import requests
-import json
-api = 'https://script.google.com/macros/s/AKfycbzDO751w195jyuqifBm3lUuAMgcD-0A72fBEF5y_zQMB-u-yIf0twn6WSi4jKCwOfOppg/exec'
+# row = sheet.row_values(3)  # Get a specific row
+# col = sheet.col_values(3)  # Get a specific column
+# cell = sheet.cell(1,2).value  # Get the value of a specific cell
 
-print(requests.get(api).json())
+# insertRow = ["hello", 5, "red", "blue"]
+# sheet.add_rows(insertRow, 4)  # Insert the list as a row at index 4
 
-print(requests.get(api).json())
+# sheet.update_cell(2,2, "CHANGED")  # Update one cell
+
+numRows = sheet.row_count  # Get the number of rows in the sheet
+
+pprint(data)
