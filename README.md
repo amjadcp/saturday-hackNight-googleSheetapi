@@ -14,7 +14,7 @@
 It is an office register using google sheet api
     <br />
     <a href="https://script.google.com/macros/s/AKfycbw5u_OC6SWIG7gZBeKY3lg1nDCI-XWMUSVxqlkRDyc2rvLjou3us2cHAcpSUIPBX7_AFA/exec"><strong>Explore the site »</strong></a> <br/>
-  <a href="https://docs.google.com/spreadsheets/d/1ngqfIJUA-lK6cizY-CUW4R_NOLCXhhgGb8XtKv-HrY8/edit?usp=sharing">The google sheet »</a>
+  <a href="https://docs.google.com/spreadsheets/d/1ngqfIJUA-lK6cizY-CUW4R_NOLCXhhgGb8XtKv-HrY8/edit?usp=drivesdk">The google sheet »</a>
     <br />
     <br />
     <a href="https://github.com/amjadcp/saturday-hackNight-googleSheetapi/issues">Report Bug</a>
