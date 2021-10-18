@@ -49,12 +49,12 @@ It is a visiters adding list in covid19 time using google sheet api
 <!-- ABOUT THE PROJECT -->
 
 
-### Discord Example
+### ABOUT THE PROJECT
 ---
 <img src="images/out_2.png" alt="Discord Example">
 
 
-It is an office register using google sheet api
+It is a visiters adding list in covid19 time using google sheet api
 
 Here's why:
 * To record visited coustomers list
